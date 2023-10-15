@@ -53,5 +53,34 @@
 //      '19' - '13' + 17;
 //      '123' < 57;
 //      5 + 6 + '4' + 9 - 4 - 2;
-console.log('19' - '13' + 17)
+// console.log( '19' - '13' + '17')
 // 2. Executetheoperationstocheckifyouwereright
+
+// LECTURE: Equality Operators: == vs. ===
+// 1. Declareavariable'numNeighbours'basedonapromptinputlikethis: prompt('How many neighbour countries does your country have?');
+// let numNeighbours = prompt('How many neighbour countries does your country have?');
+
+// 2. Ifthereisonly1neighbour,logtotheconsole'Only1border!'(uselooseequality == for now)
+
+// 3. Useanelse-ifblocktolog'Morethan1border'incase'numNeighbours' is greater than 1
+// 4. Useanelseblocktolog'Noborders'(thisblockwillbeexecutedwhen 'numNeighbours' is 0 or any other value)
+// 5. Testthecodewithdifferentvaluesof'numNeighbours',including1and0.
+// 6. Change==to===,andtestthecodeagain,withthesamevaluesof
+// 'numNeighbours'. Notice what happens when there is exactly 1 border! Why
+// is this happening?
+// 7. Finally,convert'numNeighbours'toanumber,andwatchwhathappensnow
+// when you input 1
+// 8. Reflectonwhyweshouldusethe===operatorandtypeconversioninthis
+// situation
+// LECTURE: Logical Operators
+// 1. Commentoutthepreviouscodesothepromptdoesn'tgetintheway
+// 2. Let'ssaySarahislookingforanewcountrytolivein.Shewantstoliveina
+// country that speaks english, has less than 50 million people and is not an
+// island.
+// 3. WriteanifstatementtohelpSarahfigureoutifyourcountryisrightforher.
+// You will need to write a condition that accounts for all of Sarah's criteria. Take
+// your time with this, and check part of the solution if necessary.
+// 4. Ifyoursistherightcountry,logastringlikethis:'YoushouldliveinPortugal:)'.If
+// not, log 'Portugal does not meet your criteria :('
+// 5. Probablyyourcountrydoesnotmeetallthecriteria.Sogobackandtemporarily
+// change some variables in order to make the condition true (unless you live in Canada :D)
